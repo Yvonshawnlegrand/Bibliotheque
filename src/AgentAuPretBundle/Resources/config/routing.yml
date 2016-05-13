@@ -1,0 +1,3 @@
+agent_au_pret_homepage:
+    path:     /
+    defaults: { _controller: AgentAuPretBundle:Default:index }

@@ -1,0 +1,3 @@
+conservateur_homepage:
+    path:     /
+    defaults: { _controller: ConservateurBundle:Default:index }

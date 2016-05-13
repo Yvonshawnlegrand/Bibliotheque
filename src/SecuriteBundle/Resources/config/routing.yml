@@ -1,0 +1,3 @@
+securite_homepage:
+    path:     /
+    defaults: { _controller: SecuriteBundle:Default:index }
