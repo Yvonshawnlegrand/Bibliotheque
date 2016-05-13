@@ -1,0 +1,29 @@
+-- Voir tous les depo
+git remote -v
+
+-- Ajouter le depo source
+git remote add origin https://github.com/AlexFa80/Bibliotheque
+
+-- Ajouer le depo upstream
+git remote add upstream https://github.com/Yvonshawnlegrand/Bibliotheque
+
+git clone https://github.com/Yvonshawnlegrand/Bibliotheque projetBibliotheque
+
+
+
+git pull
+
+-- Ajouter tous les fichiers au repo
+git add -A
+
+-- Faire un commit en précisant ce qui a été fait
+git commit -m 'Creation du projet'
+
+-- Rapatrie toutes les nouvelles modifications provenant du dépôt original
+git fetch upstream
+
+-- Fusionne toutes les modifications rapatriées à l'intérieur de vos fichiers de travail
+git merge upstream/master
+
+-- Pousser les modifications locales sur le repo en ligne
+git push origin master
