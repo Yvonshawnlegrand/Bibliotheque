@@ -1,0 +1,19 @@
+conservateur:
+    resource: "@ConservateurBundle/Resources/config/routing.yml"
+    prefix:   /
+
+lecteurs:
+    resource: "@LecteursBundle/Resources/config/routing.yml"
+    prefix:   /
+
+agent_au_pret:
+    resource: "@AgentAuPretBundle/Resources/config/routing.yml"
+    prefix:   /
+
+securite:
+    resource: "@SecuriteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

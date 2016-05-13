@@ -1,0 +1,3 @@
+lecteurs_homepage:
+    path:     /
+    defaults: { _controller: LecteursBundle:Default:index }
